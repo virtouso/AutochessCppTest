@@ -4,6 +4,6 @@
 class Board
 {
 public:
-    BoardCell BoardReference[][];
+  //  BoardCell BoardReference[][];
     
 };
