@@ -155,6 +155,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Models\Board.cpp" />
+    <ClCompile Include="Models\BoardCell.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\Board.h" />
+    <ClInclude Include="Models\BoardCell.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
