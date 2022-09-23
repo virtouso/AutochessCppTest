@@ -1,7 +1,7 @@
 ﻿#pragma once
 
-class BoardCell
+class VectorHelper
 {
 public:
-    int X,Y;
+    
 };

@@ -154,13 +154,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Basics\Vec2.cpp" />
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="Models\Board.cpp" />
-    <ClCompile Include="Models\BoardCell.cpp" />
+    <ClCompile Include="Helpers\RandomHelper.cpp" />
+    <ClCompile Include="Helpers\VectorHelper.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Models\Board.h" />
-    <ClInclude Include="Models\BoardCell.h" />
+    <ClInclude Include="Basics\Vec2.h" />
+    <ClInclude Include="Enums\MatchSides.h" />
+    <ClInclude Include="Helpers\RandomHelper.h" />
+    <ClInclude Include="Helpers\VectorHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Factories" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
