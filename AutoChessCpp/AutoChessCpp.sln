@@ -4,6 +4,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoChessLogic", "AutoChess
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoChessGameplayTest", "AutoChessGameplayTest\AutoChessGameplayTest.vcxproj", "{FCCE9DFD-38A5-40F7-ACA5-A85FB227DDD9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{3D7964AE-B522-44BC-B2B5-2A0CC0B02290}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedModels", "SharedModels\SharedModels.vcxproj", "{2E6D1E67-BDBE-4F79-A431-5EE50A34BDD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -28,5 +32,17 @@ Global
 		{FCCE9DFD-38A5-40F7-ACA5-A85FB227DDD9}.Release|Win32.Build.0 = Release|Win32
 		{FCCE9DFD-38A5-40F7-ACA5-A85FB227DDD9}.Release|x64.ActiveCfg = Release|x64
 		{FCCE9DFD-38A5-40F7-ACA5-A85FB227DDD9}.Release|x64.Build.0 = Release|x64
+		{2E6D1E67-BDBE-4F79-A431-5EE50A34BDD9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E6D1E67-BDBE-4F79-A431-5EE50A34BDD9}.Debug|Win32.Build.0 = Debug|Win32
+		{2E6D1E67-BDBE-4F79-A431-5EE50A34BDD9}.Debug|x64.ActiveCfg = Debug|x64
+		{2E6D1E67-BDBE-4F79-A431-5EE50A34BDD9}.Debug|x64.Build.0 = Debug|x64
+		{2E6D1E67-BDBE-4F79-A431-5EE50A34BDD9}.Release|Win32.ActiveCfg = Release|Win32
+		{2E6D1E67-BDBE-4F79-A431-5EE50A34BDD9}.Release|Win32.Build.0 = Release|Win32
+		{2E6D1E67-BDBE-4F79-A431-5EE50A34BDD9}.Release|x64.ActiveCfg = Release|x64
+		{2E6D1E67-BDBE-4F79-A431-5EE50A34BDD9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E6D1E67-BDBE-4F79-A431-5EE50A34BDD9} = {3D7964AE-B522-44BC-B2B5-2A0CC0B02290}
+		{66E7C47B-BF38-4B2A-B17B-59990C5E742F} = {3D7964AE-B522-44BC-B2B5-2A0CC0B02290}
 	EndGlobalSection
 EndGlobal
