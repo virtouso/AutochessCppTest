@@ -6,7 +6,7 @@ namespace Basics
     {
     public:
         int X,Y;
-
+        Vec2Int(int x, int y) {X=x; Y=y;  }
         bool Equals(const Vec2Int* other) const;
     
     };
@@ -14,9 +14,9 @@ namespace Basics
     class Vec2
     {
     public:
-        int X, Y;
+        float X, Y;
 
-
+        Vec2(float x, float y) {X=x; Y=y;  }
         bool Equals(const Vec2* other) const;
     };
 }

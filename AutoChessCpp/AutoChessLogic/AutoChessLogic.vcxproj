@@ -156,17 +156,41 @@
   <ItemGroup>
     <ClCompile Include="Basics\Vec2.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Factories\HeroMoveFactory.cpp" />
+    <ClCompile Include="Factories\HeroObjectActionFactory.cpp" />
+    <ClCompile Include="Factories\HeroSubjectActionFactory.cpp" />
     <ClCompile Include="Helpers\RandomHelper.cpp" />
     <ClCompile Include="Helpers\VectorHelper.cpp" />
+    <ClCompile Include="MatchEntities\Cell.cpp" />
+    <ClCompile Include="MatchEntities\Hero\Move\DirectMove.cpp" />
+    <ClCompile Include="MatchEntities\Match.cpp" />
+    <ClCompile Include="MatchEntities\MatchHero.cpp" />
+    <ClCompile Include="MatchEntities\MatchRecord.cpp" />
+    <ClCompile Include="Player\MatchPlayer.cpp" />
+    <ClCompile Include="Player\MatchPlayers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Basics\Vec2.h" />
     <ClInclude Include="Enums\MatchSides.h" />
+    <ClInclude Include="Factories\HeroMoveFactory.h" />
+    <ClInclude Include="Factories\HeroObjectActionFactory.h" />
+    <ClInclude Include="Factories\HeroSubjectActionFactory.h" />
     <ClInclude Include="Helpers\RandomHelper.h" />
     <ClInclude Include="Helpers\VectorHelper.h" />
+    <ClInclude Include="MatchEntities\Cell.h" />
+    <ClInclude Include="MatchEntities\Hero\Move\DirectMove.h" />
+    <ClInclude Include="MatchEntities\Hero\Move\IMoveAction.h" />
+    <ClInclude Include="MatchEntities\Match.h" />
+    <ClInclude Include="MatchEntities\MatchHero.h" />
+    <ClInclude Include="MatchEntities\MatchRecord.h" />
+    <ClInclude Include="Player\Deck.h" />
+    <ClInclude Include="Player\DeckCell.h" />
+    <ClInclude Include="Player\MatchPlayer.h" />
+    <ClInclude Include="Player\MatchPlayers.h" />
+    <ClInclude Include="Player\Models\PlayerEnum.h" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Factories" />
+    <Folder Include="MatchEntities\God" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
