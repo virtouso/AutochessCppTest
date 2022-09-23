@@ -21,6 +21,11 @@
   <ItemGroup>
     <ClInclude Include="Basic\Model.h" />
     <ClInclude Include="Card\Card.h" />
+    <ClInclude Include="Enums\Enums.h" />
+    <ClInclude Include="Heroes\ActionNames.h" />
+    <ClInclude Include="Heroes\Hero.h" />
+    <ClInclude Include="Heroes\HeroLevel.h" />
+    <ClInclude Include="Heroes\HeroStats.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Basic\Model.cpp">
@@ -97,9 +102,7 @@
       <LibCompiled>true</LibCompiled>
       <AdditionalIncludeDirectories>;D:\Tools\vcpkg\installed\x64-windows\include</AdditionalIncludeDirectories>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Enums" />
+    <ClCompile Include="Heroes\HeroStats.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

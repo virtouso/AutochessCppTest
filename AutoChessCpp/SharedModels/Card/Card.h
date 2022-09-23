@@ -1,10 +1,16 @@
 ﻿#pragma once
+#include "../Enums/Enums.h"
 
-class Card
+using namespace  Enums;
+
+namespace Card
 {
-public:
-    char* CardUniqueId;
-    Rarity Rarity;
-    CardType CardType;
-    public int AddingExperience;
-};
+    class Card
+    {
+    public:
+        char* CardUniqueId;
+        Rarity Rarity;
+        CardType CardType;
+        int AddingExperience;
+    };
+}
